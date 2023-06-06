@@ -18,7 +18,3 @@ mapa= pd.DataFrame(
     columns=['lat', 'lon'])
 mapa = mapa.dropna()
 st.map(mapa.astype(int))
-
-
-
-st.map(df)
